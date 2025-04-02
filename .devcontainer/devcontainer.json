@@ -1,0 +1,8 @@
+{
+    "name": "PHP Codespace",
+    "image": "mcr.microsoft.com/devcontainers/php:8.2-bullseye",
+    "features": {
+      "ghcr.io/devcontainers/features/node:1": "latest"
+    },
+    "postCreateCommand": "php -v"
+  }
